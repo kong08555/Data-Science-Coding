@@ -50,7 +50,7 @@ for i in range(1, n_experiments + 1):
     print('---------------------------------------------------')
 
 # Display average results and standard deviation of accuracy
-print(f'\nNaïve Bayes Average Accuracy: {np.mean(nb_results):.4f} (+/- {np.std(nb_results) * 2:.4f})')
-print(f'kNN Average Accuracy: {np.mean(knn_results):.4f} (+/- {np.std(knn_results) * 2:.4f})')
+print(f'\nNaïve Bayes Average Accuracy: {np.mean(nb_results):.4f} (SD: {np.std(nb_results) * 2:.4f})')
+print(f'kNN Average Accuracy: {np.mean(knn_results):.4f} (SD: {np.std(knn_results) * 2:.4f})')
 
 
